@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LPU: Lovely Professional University</title>
+    <link rel="stylesheet" href="universitywebsite.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="lpulogo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                 <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>   
+        </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <h1>Our Courses</h1>
+</section>
+<!---------- courses---------->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Transforming Education Transforming India</p>
+
+    <div class="course-row1">
+        <div class="course-col">
+            <h3>After 12th (Undergradute) <br>Programmes</h3>
+            <p>Regular Programmes, Hons. Programmes with Industry Collaboration, Work Integrated Programmes, Industry Collaborative Programmes, International Credit Transfer Programmes, Hons. Programmes, Integrated Programmes</p>
+        </div>
+        <div class="course-col">
+            <h3>After 10th Programmes</h3>
+            <p>Engineering, Management, MLT or Paramedical Sciences or Embryology</p>
+        </div>
+        <div class="course-col">
+            <h3>After Diploma or Certificate <br>Programmes</h3>
+            <p>Engineering, Management, Pharmaceutica Sciences, ComputerApplications and IT, Commerce, MLT or Paramedical Sciences or Embryology, Fashion Design, Hotel Management and Tourism, Physiotherapy, Design, Interior and Furniture Design, Product and Industrial Design</p>
+        </div>
+    </div>
+    <div class="course-row2">
+        <div class="course-col">
+            <h3>Short Team Course</h3>
+            <p>Intensive Course in French Language A1, Intensive Course in German Language A1, Level 2 Yoga Wellness Instructor</p>
+        </div>
+        <div class="course-col">
+            <h3>After Graduation(Post Graduate) Programmes</h3>
+            <p>Regular Programmes, Hons. Programmes with Industry Collaboration, Industry Collaborative Programmes, International Credit Transfer Programmes, Hons. Programmes, Executive/ Part Time Programmes.</p>
+        </div>
+        <div class="course-col">
+            <h3>After Post Graduation Programmes</h3>
+            <p>Engineering, Management, Law, Computer Applications and IT, Commerce, Pharmaceutical Sciences, Agriculture, Economics, Ayurvedic Pharmaceutical Sciences, etc.</p>
+        </div>
+        
+    </div>
+    <div class="course-row3">
+        <div class="course-col">
+            <h3>Doctral Programmes</h3>
+            <p>All Doctor Courses</p>
+        </div>
+        <div class="course-col">
+            <h3>After Doctral Programmes</h3>
+            <p>Doctor of Science (D.SC.), Doctor of Literature (D.Litt.), Doctor of Laws (LL. D).</p>
+        </div>
+        <div class="course-col">
+            <h3>After Graduation(Post Graduate) Programmes</h3>
+            <p>Certificate in Cyber Security, Certificate in General Management, Certificate in Leadership and Change Management, Certificate in Business Analytics, Certificate in Data Driven Product Management.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-------JavaScript For Toggle menu------->
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+    function showmenu(){
+        navLinks.style.right= "0";
+    }
+    function hidemenu(){
+        navLinks.style.right= "-200px";
+    }
+
+</script>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>India's Best Private University* Lovely Professional University, Jalandhar-Delhi, G.T. Road, Phagwara, Punjab (INDIA) -144411.
+        <br>Website: https://sahil-bhuker.github.io/Universitiy-website/</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-github"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by sahil</p>
+    </section>
+</body>
+</html>
